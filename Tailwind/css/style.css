@@ -1,0 +1,341 @@
+body{
+    height: 4000px;
+    
+}
+.myNav .myNav-holder .navbar-brand{
+    font-size: .875rem;
+    font-weight: bold;
+}
+.myNav{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.myNav .myNav-holder .fa-file-alt{
+    font-size: 20px;
+}
+.myNav .myNav-holder .social{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.myNav .myNav-holder  .download{
+    font-weight: 700;
+}
+
+
+.absolute-container{
+    background: url("imgs/background.jpg") no-repeat fixed center 70% ;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+}
+.absolute-container .absolute-container-holder{
+    background-color: rgba(2, 2, 2,0.8)
+}
+.absolute-container .intro{
+    padding: 8% 0;
+}
+.absolute-container .intro h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.absolute-container .intro p:first-of-type{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.absolute-container header .triangle{
+    height: 46px;
+    transform: translateZ(0px);
+}
+
+.absolute-container header .triangle .text-gray-300 {
+    color: #e2e8f0;
+}
+
+.absolute-container header .triangle .fill-current {
+    fill: currentColor;
+}
+.absolute-container .absolute-container-holder .myCards{
+    background-color: #E2E8F0;
+    color: #333;
+    border: none;
+    padding-bottom: 5%;
+}
+.absolute-container .absolute-container-holder .myCards .card{
+    width: 21.8rem;
+    padding: 8% 0px 4%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 0px;
+}
+
+.absolute-container .absolute-container-holder .myCards .card .sign1,
+.absolute-container .absolute-container-holder .myCards .card .sign2,
+.absolute-container .absolute-container-holder .myCards .card .sign3{
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    margin: auto;
+}
+.absolute-container .absolute-container-holder .myCards .card .sign1{
+    background-color: #FC8181;
+}
+.absolute-container .absolute-container-holder .myCards .card .sign2{
+    background-color: #63B3ED;
+}
+.absolute-container .absolute-container-holder .myCards .card .sign3{
+    background-color: #68D391;
+}
+.absolute-container .absolute-container-holder .myCards .card h3{
+    color:#676E7A
+}
+.absolute-container .absolute-container-holder .myCards .card p{
+    color:#9FA9B8
+}
+.absolute-container .absolute-container-holder .myCards .row .col:first-of-type{
+    top: -50px;
+}
+.absolute-container .absolute-container-holder .myCards .row .col:nth-last-of-type(2){
+    top: -95px;
+}
+.absolute-container .absolute-container-holder .myCards .row .col:last-of-type{
+    top: -75px;
+}
+/***************************************************/
+.metting{
+    padding-top: 10%;
+    background-color: #E2E8F0;
+    padding-bottom: 1%;
+}
+.metting .metting-holder .row{
+    margin-bottom: 5%;
+}
+.metting .metting-holder .row   .users{
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0px;
+    padding-left: 13px;
+    margin-bottom: 30px;
+}
+.metting .metting-holder .row .col-9 {
+    padding-right: 17%;
+}
+.metting .metting-holder .row .col-3{
+    margin-left: -30px;
+}
+.metting .metting-holder .row .col-3 .card{
+    background-color: #E2E8F0;
+    border: none;
+}
+.metting .metting-holder .row .col-3 .card img{
+    width: 100%;
+    height: 320px;
+    border-radius: 10px 10px 0 0 ;
+}
+.metting .metting-holder .row .col-3 .card .card-body{
+    background-color: #D53F8C;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    padding: 2.25rem;
+
+    
+}
+  /************************ desk *************************/
+.desk .desk-holder{
+    padding:5% 0;
+}
+.desk .desk-holder .desk-details{
+    padding-top: 100px;
+}
+.desk .desk-holder .desk-photo img{
+    width: 400px;
+    height: 590px;
+    border-radius: 10px;
+}
+.desk .desk-holder .row .col .rocket{
+        background-color:#FBB6CE;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+        color:#d53f8c;
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 8px 0px;
+}
+.desk .desk-holder .row .col .deskInfo h2{
+    color:#2D3748;
+    margin-bottom: 20px;
+}
+.desk .desk-holder .row .col .deskInfo p{
+    color:#A3A6B4;
+    margin-bottom: 20px;
+}
+.desk .desk-holder .row .col .deskInfo .deskSign{
+    background-color: #FBB6CE;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #d53f8c;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 8px 0px;
+    display: inline-block;
+    float: left;
+}
+.desk .desk-holder .row .col .deskInfo .deskSign .inline{
+    display: inline-block;
+    float: left;
+}
+/******************************** hero *****************/
+.heros{
+    padding: 4% 0;
+} 
+.heros .heros-holder h1,.heros .heros-holder h5{
+    color:#2d3748;
+    font-weight: 700;
+}
+.heros .heros-holder .heros-intro{
+    color:#718096;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.heros .heros-holder p{
+    color:#718096;
+}
+
+.heros .heros-holder img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.heros .heros-holder .social{
+    display:inline-block;
+}
+.heros .heros-holder .social li{
+    margin-right: 3px;
+    border-radius: 50%;
+    line-height: 30px;
+    color: #fff;
+    padding: 3px 10px;
+} 
+.heros .heros-holder .social li.twitter{
+    background-color:#63b3ed;
+}
+.heros .heros-holder .social li.facebook{
+    background-color:#3182ce;
+    
+}
+.heros .heros-holder .social li.dribble{
+    background-color:#ed64a6;
+    
+}
+.heros .heros-holder .social li.google{
+    background-color:#e53e3e;
+    
+}
+.heros .heros-holder .social li.insta{
+    background-color:#2d3748;
+}
+/******************************** build*****************/
+.builder{
+    background-color: #1A202C;
+    padding: 7% 0;
+    color: #fff;
+    border-radius: 20px 20px  0 0;
+}
+.builder .builder-holder .builder-intro{
+    margin-bottom: 7%;
+}
+.builder .builder-holder .build-sign{
+    background-color: #FFF;
+    color: #1A202C;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.builder .builder-holder .row{
+    margin-bottom: 7%
+}
+.builder .builder-holder .col p{
+    padding: 0 33px;
+    color: #a0aec0;
+}
+.builder .builder-holder .myForm{
+    background-color:#E2E8F0;
+    width: 50%;
+    padding: 3% 30px 3% 40px;
+    border-radius: 10px;
+}
+.builder .builder-holder .myForm h2{
+    color:#1A202C
+}
+.builder .builder-holder .myForm p{
+    color:#718096
+}
+.builder .builder-holder .myForm form label{
+    color:#4a5568;
+    font-size: 13px;
+    font-weight: 700;
+}
+.builder .builder-holder .myForm form .form-control{
+    margin-bottom: 10px;
+}
+
+.builder .builder-holder .myForm form button{
+    margin: 0px 32%;
+    padding: 10px 25px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #1a202c;
+}
+  /******************************** footer*****************/
+  footer{
+      color: #2d3748;
+      line-height: 1.7;
+      background-color: #E2E8F0;
+  }
+  footer .siteLinks{
+      padding: 3% 0;
+  }
+  footer .footer-holder .copyRights hr{
+    margin-bottom: 2%;
+}
+  footer .footer-holder .copyRights{
+      padding:0 0 2% 0;
+  }
+
+  footer span{
+      color: #718096;
+  }
+  footer ul li{
+      font-size: .875rem;
+      color: #4a5568;
+      padding-bottom: .5rem;
+      font-weight: 600;
+  }
+
+  footer .footer-holder .siteLinks i{
+      border-radius: 50%;
+      text-decoration: none;
+  }
+  footer .footer-holder .siteLinks a:hover{
+    text-decoration: none;
+
+}

@@ -1,0 +1,174 @@
+@media (max-width:767px){
+    .myNav .myNav-holder .download{
+        float: right;
+        margin-top: 16px;
+    }
+    .myNav .myNav-holder .social{
+        width: 40%;
+        float: left;
+        margin-top: 0 !important;
+    }
+    .myNav .myNav-holder .social li{
+       float: left;
+    }
+    .navbar-nav{
+        width: 20%;
+        display: inline;
+        float: left;
+        line-height: 2.7;
+    }
+    .absolute-container header .triangle {
+        height: 20px;
+    }
+    .row{
+        display: inline-block;
+    }
+    .absolute-container .absolute-container-holder .myCards .row .col:nth-last-of-type(2) {
+        top:0
+    }
+    .absolute-container .absolute-container-holder .myCards .row .col:last-of-type {
+        top: 50px;
+    }
+    .absolute-container .absolute-container-holder .myCards {
+        padding-bottom: 25%;
+    }
+    .metting .metting-holder .row .col-9 {
+        padding-right: 0;
+        margin-bottom: 40px;
+
+    }
+    .desk .desk-holder .desk-photo img {
+        width: 100%;
+    }
+    .desk .desk-holder .desk-details {
+        padding-top: 50px;
+    }
+    .builder .builder-holder .myForm {
+        width: 90%;
+    }
+    .heros .heros-holder .social {
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    .builder .builder-holder .myForm form button {
+        padding: 10px 12px;
+        margin: 0px 29%
+    }
+    footer{
+        padding-top: 20px;
+    }
+    .metting .metting-holder .row .col-3{
+        margin-left: 0;
+    }
+    .card{
+        max-width: 18rem !important;
+    }
+}
+
+@media (min-width:767px) and (max-width: 992px){
+    .myNav .myNav-holder .download{
+        float: right;
+        margin-top: 16px;
+    }
+    .myNav .myNav-holder .social{
+        width: 40%;
+        float: left;
+        margin-top: 0 !important;
+    }
+    .myNav .myNav-holder .social li{
+       float: left;
+    }
+    .navbar-nav{
+        width: 20%;
+        display: inline;
+        float: left;
+        line-height: 2.7;
+    }
+
+    polygon  {
+        height: 24px !important;
+        transform: translateZ(0px);
+        display: none
+    }
+    .row{
+        display: inline-block;
+    }
+    .absolute-container .absolute-container-holder .myCards .row .col:nth-last-of-type(2) {
+        top:0
+    }
+    .absolute-container .absolute-container-holder .myCards .row .col:last-of-type {
+        top: 50px;
+    }
+    .absolute-container .absolute-container-holder .myCards {
+        padding-bottom: 25%;
+    }
+    .desk .desk-holder .desk-photo img {
+        width: 100%;
+    }
+    .desk .desk-holder .desk-details {
+        padding-top: 50px;
+    }
+    .builder .builder-holder .myForm {
+        width: 90%;
+    }
+    .heros .heros-holder .social {
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    .metting .metting-holder .row .col-9 {
+        padding-right:0;
+        margin-bottom: 30px;
+    }
+    .metting .metting-holder .row .col-3{
+        margin-left: 0;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+    .myNav .myNav-holder .download{
+        float: right;
+        margin-top: 16px;
+    }
+    .myNav .myNav-holder .social{
+        width: 40%;
+        float: left;
+        margin-top: 0 !important;
+    }
+    .myNav .myNav-holder .social li{
+       float: left;
+    }
+    .navbar-nav{
+        width: 20%;
+        display: inline;
+        float: left;
+        line-height: 2.7;
+    }
+    .absolute-container header .triangle {
+        height: 38px !important;
+        transform: translateZ(0px);
+    }
+    .absolute-container .absolute-container-holder .myCards .row .col:last-of-type {
+        top:0
+    }
+    .absolute-container .absolute-container-holder .myCards .row .col:last-of-type .card{
+        margin: auto;
+        width: 500px !important;
+    }
+
+    .metting .row{
+        display: inline-block;
+    }
+    .metting .metting-holder .row .col-9 {
+        padding-right:0;
+        margin-bottom: 30px;
+    }
+
+    .builder .builder-holder .myForm form button {
+        margin: 0px 29%;
+    }
+    .metting .metting-holder .row .col-3{
+        margin-left: 0;
+    }
+    
+}
